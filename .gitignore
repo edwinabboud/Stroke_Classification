@@ -10,7 +10,7 @@ __pycache__/
 
 # Logs, checkpoints, and outputs
 wandb/
-*.pt
+#*.pt
 *.onnx
 
 # System files
