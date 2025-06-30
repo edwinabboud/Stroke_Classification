@@ -1,0 +1,28 @@
+project: stroke-ct-classification
+run_name: efficientnet-b0-v1
+
+data:
+  dataset_path: ./Data
+  processed_path: ./Data/processed
+  image_size: 224
+  batch_size: 8
+  val_split: 0.1
+  test_split: 0.1
+
+model:
+  backbone: efficientnet_b0
+  pretrained: true
+  num_classes: 2
+
+train:
+  epochs: 5
+  learning_rate: 0.0003
+  weight_decay: 0.01
+  optimizer: adam
+  scheduler: cosine
+  early_stopping: false
+
+wandb:
+  use: true
+  project: Stroke_Classification
+  entity: edwinabboudblanco-me

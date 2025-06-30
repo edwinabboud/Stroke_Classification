@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+.env
+
+# Logs, checkpoints, and outputs
+wandb/
+*.pt
+*.onnx
+
+# System files
+.DS_Store
+
+# Data directory (local datasets, external test sets, etc.)
+Data/
+Image_test/

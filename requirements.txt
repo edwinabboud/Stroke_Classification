@@ -1,0 +1,12 @@
+torch
+torchvision
+timm
+wandb
+python-dotenv
+PyYAML
+opencv-python
+scikit-learn
+matplotlib
+seaborn
+pillow
+onnx
